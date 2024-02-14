@@ -220,3 +220,13 @@ if(is_palindrome(a)==True):
     print("String is a palindrome!")
 else:
     print("String isn't a palindrome!")
+
+
+def  sum_of_element(arr , n):
+    sum = 0
+    for i in n:
+        sum = sum + arr[i]
+    return sum
+arr =[28+23+26+2662+22]
+n=arr(l)
+print (sum_of_element(arr,n))
